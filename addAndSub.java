@@ -9,10 +9,10 @@ public class addAndSub {
 		print(difference);
 	}
 
-	public static int getNumber() {
+	public static int getNumber(){
 		// TODO Auto-generated method stub
 		Scanner keyboard = new Scanner(System.in);
-		System.out.println("Enter a number: ");
+		System.out.println("Enter a number:");
 		int num = keyboard.nextInt();
 		return num;
 	}
@@ -29,4 +29,7 @@ public class addAndSub {
 		System.out.println(total);
 	}
 }
+
+
+
 
